@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+#controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+  z-index: 1000;
+  font-family: Arial;
+}
+
+#legend {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: Arial;
+  width: 200px;
+  z-index: 1000;
+}
+
+.legend-bar {
+  height: 12px;
+  margin: 6px 0;
+  background: linear-gradient(
+    to right,
+    rgb(50,205,50),
+    yellow,
+    orange,
+    red
+  );
+}
+
+.legend-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
