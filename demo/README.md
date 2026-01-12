@@ -1,13 +1,13 @@
-Restaurant Semantic Search & Heatmap DEMO version
+# Restaurant Semantic Search & Heatmap DEMO version
 
 Semantic search engine for restaurants using multilingual embeddings with interactive heatmap visualization.
 Quick Start
 bash
 
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 
-# Run the application
+Run the application
 python app.py
 
 Open http://localhost:5000
