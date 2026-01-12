@@ -338,7 +338,7 @@ def create_template():
     <script src="https://unpkg.com/deck.gl@8.8.0/dist.min.js"></script>
     <script>
         // REPLACE WITH YOUR GOOGLE MAPS API KEY
-        const GOOGLE_MAPS_API_KEY = "AIzaSyAnmmOvxYRrR1FnVBK7t1fKaC7jmGmOZcU";
+        const GOOGLE_MAPS_API_KEY = "";
         
         const TARGET_TILE_COUNT = 100;
         const POINT_SPACING_METERS = 100;
